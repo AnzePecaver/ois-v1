@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Gravitacija {
-	
+
 	public static void main(String[] args) {
 		System.out.print("OIS je zakon!");
 		
@@ -13,5 +13,8 @@ public class Gravitacija {
 		
 		System.out.print(gravitacijskiPospesek);
 	}
-	
+	public static void print(double visina, double pospesek){
+			System.out.print("Nadmorska visina je" + visina + "gravitacijski pospesek pa" + pospesek);
+	}
+
 }
